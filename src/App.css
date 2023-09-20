@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+
+}
+
+html {
+    font-size: 130%;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.todo-contain {
+    position: sticky;
+    background-image: url(./assets/background/background.png);
+    background-size: cover;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
